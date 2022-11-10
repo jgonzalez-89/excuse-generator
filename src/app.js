@@ -13,6 +13,6 @@ window.onload = () => {
   let que = what[Math.floor(Math.random() * what.length)];
   let cuando = when[Math.floor(Math.random() * when.length)];
 
-  let mensaje = quien + " " + que + " " + cuando;
-  document.querySelector(".escusa").innerHTML = mensaje;
+  document.querySelector("#escusa").innerHTML =
+    quien + " " + que + " " + cuando;
 };
